@@ -1,0 +1,57 @@
+
+    <div class="container">
+        <div class ="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-inverse navbar-fixed-top header">
+              <h3 class="navbar-text">CodingDojo Wall</h3>
+              <ul class="nav navbar-nav navbar-right">
+                <li>Welcome @ViewBag.first_name</li>
+                <li><form action="logout" method="Post"><button type="submit" class="linkbutton">Log Out</button></form></li>
+              </ul>
+            </nav>
+          </div> <!-- end of col-lg-12 -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+    <div id="messages">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <form class="message_form" action="submit_message" method="Post">
+              <div class="form-group">
+                <label for="message_form">Post a message</label>
+                <textarea class="form-control" rows="3" name="message"></textarea>
+              </div> <!-- end of form group -->
+              <button type="submit" class="btn btn-primary">Post a message</button>
+            </form>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        @{
+            foreach(var message in ViewBag.Messages)
+            {
+        <div class="row">
+          <div class="col-lg-12 text-left">
+            <p class='bold'>@message.user.first_name  @message.user.last_name-  @message.created_at.ToString(" h:mm tt, MMMM dd, yyyy")</p>
+              <p class="message">@message.message</p>
+              @foreach(var comment in ViewBag.Comments)
+              {
+                   @if(@comment.message_id == @message.Id)
+                   {
+                   <p class="comment bold">@comment.user.first_name @comment.user.last_name  -  @comment.created_at.ToString(" h:mm tt, MMMM dd, yyyy")</p>
+                   <p class="comment">@comment.comment</p>
+                   }
+              }
+                
+                <form class="comment_form comment" action="submit_comment/@message.Id" method="Post">
+                  <div class="form-group">
+                    <label for="comment_form">Post a comment</label>
+                    <textarea class="form-control" rows="2" name="comment"></textarea>
+                  </div> <!-- end of form group -->
+                  <button type="submit" class="btn btn-success">Post a comment</button>
+                </form>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+            }
+        }
+      </div> <!-- end of container -->
+    </div> <!-- end of messages -->
+

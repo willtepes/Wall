@@ -1,0 +1,37 @@
+.header{
+  background-color: #2C3E50;
+  color: white;
+  height: 100px;
+}
+  .header ul{
+    padding: 20px 20px 10px 10px;
+  }
+  .header h3{
+    padding: 20px 20px 10px 10px;
+  }
+.message{
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+#messages{
+  margin-top: 150px;
+}
+
+.message_form{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bold{
+  font-weight: bold;
+}
+.comment{
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.linkbutton{
+  background: none;
+     border: none;
+     color: #0066ff;
+     text-decoration: underline;
+     cursor: pointer; 
+}
