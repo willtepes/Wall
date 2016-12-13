@@ -1,5 +1,5 @@
---temp-output:C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\obj\Debug\netcoreapp1.0\
---out:C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\bin\Debug\netcoreapp1.0\wall.dll
+--temp-output:C:\Users\willh\OneDrive\Dojo\github\wall\obj\Debug\netcoreapp1.0\
+--out:C:\Users\willh\OneDrive\Dojo\github\wall\bin\Debug\netcoreapp1.0\wall.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -193,15 +193,15 @@
 --reference:C:\Users\willh\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\willh\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\willh\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
---resource:"C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\obj\Debug\netcoreapp1.0\walldotnet-compile.deps.json",wall.deps.json
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Program.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Startup.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Controllers\LoginController.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Controllers\MessageController.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Factories\IFactory.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Factories\MessageFactory.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Factories\UserFactory.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Models\Comment.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Models\Message.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Models\User.cs
-C:\Users\willh\OneDrive\Dojo\C#\.NET Core\wall\Properties\MySqlOptions.cs
+--resource:"C:\Users\willh\OneDrive\Dojo\github\wall\obj\Debug\netcoreapp1.0\walldotnet-compile.deps.json",wall.deps.json
+C:\Users\willh\OneDrive\Dojo\github\wall\Program.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Startup.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Controllers\LoginController.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Controllers\MessageController.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Factories\IFactory.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Factories\MessageFactory.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Factories\UserFactory.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Models\Comment.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Models\Message.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Models\User.cs
+C:\Users\willh\OneDrive\Dojo\github\wall\Properties\MySqlOptions.cs
