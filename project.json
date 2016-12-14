@@ -29,7 +29,8 @@
     "include": [
         "wwwroot",
         "Views",
-        "web.config"
+        "web.config",
+        "appsettings.json"
     ]
 },
   "buildOptions": {
